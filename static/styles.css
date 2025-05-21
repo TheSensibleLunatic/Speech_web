@@ -1,0 +1,34 @@
+body {
+    background-color: #1e1e2f;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 50px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.result-box {
+    margin-top: 30px;
+    padding: 20px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.result-box.success {
+    background-color: #28a745;
+}
+
+.result-box.error {
+    background-color: #dc3545;
+}
+
+.result-box.processing {
+    background-color: #ffc107;
+    color: black;
+}
