@@ -2,19 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Speech to Text Converter</title>
+    <title>Real-Time AI Voice Chat</title>
     <link rel="stylesheet" href="/static/styles.css">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
     <script src="/static/script.js" defer></script>
 </head>
 <body>
     <div class="container">
-        <h1>Speech to Text Converter</h1>
+        <h1>Real-Time Voice Chat with AI</h1>
         <button id="recordBtn" class="record-button">Start Recording</button>
-        <div id="result" class="result-box">Click the button to start recording</div>
-        <div class="instructions">
-            <p>Speak clearly after pressing the button. Recording will automatically stop after 30 seconds.</p>
-        </div>
+        <div id="result" class="result-box">Waiting for input...</div>
     </div>
 </body>
 </html>
